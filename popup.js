@@ -88,8 +88,8 @@ class popup {
     //Removes the topMost panel in order to reactivate the website and call the callback function
     //passing the name/id of the element that triggered the close event
     static close(topmost, callback, objectName) {
-        topmost.remove();
         callback(objectName);
+        topmost.remove(); //Change 12.10.2020 - remove after the callback so on callback you will have the topmost panel content available
     }
 
 }
