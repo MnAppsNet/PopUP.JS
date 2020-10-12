@@ -1,0 +1,32 @@
+.popUpPanelContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background:#000000bf;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 8px;
+    font-family: Arial;
+    text-align: center;
+    font-size: medium;
+    border-style: ridge;
+}
+.popUpPanel {
+    width: 80%;
+    height: auto;
+}
+.popUpPanelCloseButton {
+    position: absolute;
+    border-radius: 5px;
+    background: #00000000;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    color: white;
+}
