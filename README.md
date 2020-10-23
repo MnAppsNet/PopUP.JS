@@ -19,6 +19,7 @@ const callback = function(buttonID){
      //No button clicked
     }
 }
+popup.show(content,buttonIds,callback);
 ```
 
 # Style
